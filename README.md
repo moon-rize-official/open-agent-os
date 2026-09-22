@@ -42,9 +42,9 @@ The project studies the full stack:
 
 ## Agent organization knowledge
 
-Open Agent OS includes a public, reusable agent-organization corpus derived from earlier AI-FLEET research and clearly separated from new proposals.
+Open Agent OS includes a public, reusable agent-organization corpus derived from earlier pre-public research and clearly separated from new proposals.
 
-- **Historical verified corpus:** 43 departments, 228 subdepartments, and **1,332 role/person workspaces**
+- **Pre-public verified corpus:** 43 departments, 228 subdepartments, and **1,332 role/person workspaces**
 - **Public archetype registry:** **1,548 generated agent archetypes**
 - **Capability model:** L0–L5 capability levels kept separate from operational authority
 - **Risk model:** R0–R4 action classes
