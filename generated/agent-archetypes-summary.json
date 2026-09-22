@@ -1,0 +1,9 @@
+{
+  "status": "PROPOSAL",
+  "historical_verified_role_workspaces": 1332,
+  "public_archetype_departments": 43,
+  "role_families": 6,
+  "capability_levels": 6,
+  "generated_archetypes": 1548,
+  "warning": "Catalog only; do not instantiate every archetype simultaneously."
+}
