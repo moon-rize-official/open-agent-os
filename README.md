@@ -63,6 +63,32 @@ Start here:
 
 The 1,548-entry registry is a **design-space catalog**, not a recommendation to run 1,548 agents simultaneously. The default operating principle remains: use the smallest competent team that can complete the task safely.
 
+
+## Expanded architecture research
+
+The research programme now includes dedicated public tracks for:
+
+- **Frontend & backend profiles:** personal, developer, team, organization, enterprise, managed SaaS and air-gapped deployments
+- **Engineering systems:** backend, frontend, platform engineering, DX, testing, delivery and reliability
+- **MCP ecosystem:** servers, registries, private registries, gateways/brokers, trust and compatibility
+- **Marketplace/catalog:** agents, skills, MCP servers, plugins, workflows, eval packs and UI packs
+- **Design system:** design tokens, Storybook/component explorer, accessibility, plugin UI and Agent OS-specific components
+- **Token economics:** tokenization, token accounting, prompt/context caching, budgets, usage telemetry and cost controls
+- **Context efficiency:** token-aware RAG, tool-schema filtering, delegation budgets, summaries and cache-friendly prompt construction
+
+Key documents:
+
+- [Frontend & Backend Architecture](research/integration-programmes/frontend-backend-architecture.md)
+- [User and Organization Profiles](docs/architecture/user-and-organization-profiles.md)
+- [Backend Service Map](docs/architecture/backend-service-map.md)
+- [Frontend Surface Map](docs/architecture/frontend-surface-map.md)
+- [Engineering Systems Programme](research/integration-programmes/engineering-system.md)
+- [MCP Expanded Scope](research/domains/17-mcp-integration-layer/EXPANDED_SCOPE.md)
+- [Marketplace Expanded Scope](research/domains/59-agent-marketplace-catalog/EXPANDED_SCOPE.md)
+- [Design System Expanded Scope](research/domains/73-ui-component-system/EXPANDED_SCOPE.md)
+- [Token Economics](research/domains/68-cost-management/TOKEN_ECONOMICS.md)
+- [Token Budgeting & Context Efficiency](research/domains/40-context-engineering/TOKEN_BUDGETING.md)
+
 ## Research discipline
 
 Important statements are classified as:
