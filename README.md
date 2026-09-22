@@ -89,6 +89,23 @@ Key documents:
 - [Token Economics](research/domains/68-cost-management/TOKEN_ECONOMICS.md)
 - [Token Budgeting & Context Efficiency](research/domains/40-context-engineering/TOKEN_BUDGETING.md)
 
+
+### Agent information, data and tool requirements
+
+The agent research also includes a provisioning-oriented model for what each department and agent actually needs to work:
+
+- [Agent Resource Requirements Programme](research/integration-programmes/agent-resource-requirements.md)
+- [Agent Information Requirements Programme](research/integration-programmes/agent-information-requirements.md)
+- [Department Information / Data / Tool Matrix](docs/agents/department-resource-matrix.md)
+- [Department Knowledge Map](docs/agents/department-knowledge-map.md)
+- [Role-Family Resource Overlays](docs/agents/role-family-resource-overlays.md)
+- [Agent Resource Requirements Model](docs/agents/resource-requirements-model.md)
+- [Agent Information Requirements Model](docs/agents/information-requirements-model.md)
+- [Resource Requirement Schema](spec/agents/resource-requirement.schema.json)
+- [Information Profile Schema](spec/agents/information-profile.schema.json)
+
+The target is to generate portable resource profiles for all **1,548 public agent archetypes**, including required knowledge, data, live systems, tools, MCP/API integrations, skills, memory, compute, observability and expected outputs.
+
 ## Research discipline
 
 Important statements are classified as:
