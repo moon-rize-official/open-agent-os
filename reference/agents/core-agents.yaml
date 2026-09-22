@@ -1,43 +1,43 @@
-version: 1
-status: observed-case-study
-source_class: AI-FLEET-PRIOR-RESEARCH
+version: 2
+status: public-reference-archetypes
+source_class: PRE-PUBLIC-RESEARCH
 note: >
-  These are durable role examples from the source organization.
-  Implementations may rename or replace them.
+  Functional public role archetypes distilled from earlier internal research.
+  Implementations may rename, merge, split, or replace them.
 agents:
-  - id: hermes
+  - id: coordinator
     role: chief-coordinator
     purpose: classify work, form teams, coordinate dependencies, request verification, return results
-  - id: themis
+  - id: policy-authority
     role: governance-authority
     purpose: policy, authorization, approval, ownership and risk checks
-  - id: athena
+  - id: architecture-lead
     role: architecture-product-lead
     purpose: architecture, requirements decomposition, technical strategy and product planning
-  - id: hephaestus
+  - id: implementation-lead
     role: implementation-lead
     purpose: code, refactoring, automation, builds and implementation tests
-  - id: daedalus
+  - id: systems-lead
     role: systems-platform-lead
     purpose: distributed systems, infrastructure architecture, integration and deployment design
-  - id: atlas
+  - id: inventory-agent
     role: infrastructure-inventory
     purpose: read-mostly collection of current hardware, services, storage, network and utilization
-  - id: aegis
+  - id: security-lead
     role: security-lead
     purpose: threat analysis, IAM, secrets, hardening, application and network security
-  - id: argus
+  - id: verification-lead
     role: independent-verification
     purpose: audit, evidence gathering, regression review and independent validation
-  - id: mnemosyne
+  - id: knowledge-lead
     role: knowledge-lead
     purpose: ingestion, provenance, deduplication, classification, memory promotion and conflict detection
-  - id: apollo
+  - id: research-lead
     role: research-lead
     purpose: external research, standards, comparative analysis and source gathering
-  - id: calliope
+  - id: documentation-lead
     role: documentation-lead
     purpose: technical documentation, runbooks, structured reports and consistency
-  - id: orpheus
+  - id: creative-lead
     role: creative-lead
     purpose: concept development, creative direction and media/content ideation
