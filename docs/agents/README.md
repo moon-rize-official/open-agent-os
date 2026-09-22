@@ -1,9 +1,9 @@
 # Agent Organization Model
 
 **Status:** OBSERVED + INFERENCE + PROPOSAL  
-**Source class:** AI-FLEET PRIOR RESEARCH
+**Source class:** PRE-PUBLIC RESEARCH
 
-This document captures the reusable organizational knowledge distilled from the earlier AI-FLEET agent-company research. It is intentionally generalized for public use.
+This document captures reusable organizational knowledge distilled from earlier internal agent-organization research and generalized for public use.
 
 ## 1. Historical corpus
 
@@ -16,7 +16,7 @@ This document captures the reusable organizational knowledge distilled from the 
 
 Each role workspace was designed as more than a prompt. It had separate surfaces for agent definition, tools, MCP, knowledge, memory, permissions, workflows, prompts, reviews, audit, inbox, and outputs.
 
-The exact historical registry is not reproduced here. This public repository instead preserves the architecture and turns it into reusable schemas, examples, and generators.
+The exact historical registry is not reproduced here. This public repository preserves the architectural lessons and turns them into reusable schemas, examples, and generators.
 
 ## 2. Matrix organization
 
@@ -42,32 +42,32 @@ The operating rule is:
 
 That rule is more important than maximizing agent count.
 
-## 3. Durable lead archetypes
+## 3. Durable role archetypes
 
-The source organization used durable named leads as examples:
+The public architecture uses functional role names:
 
-| Archetype | Primary role |
+| Public role | Primary responsibility |
 |---|---|
-| Hermes | Chief coordinator / task router |
-| Themis | Governance and policy authority |
-| Athena | Engineering architecture / product strategy |
-| Hephaestus | Implementation and automation lead |
-| Daedalus | Systems/platform architecture |
-| Atlas | Read-mostly infrastructure inventory |
-| Aegis | Security engineering lead |
-| Argus | Independent verification and audit |
-| Mnemosyne | Knowledge/memory governance |
-| Apollo | Research and external intelligence |
-| Calliope | Documentation and structured communication |
-| Orpheus | Creative direction |
+| Coordinator | Task intake, routing, team formation, dependency coordination |
+| Policy Authority | Governance, authorization, approvals, ownership and risk checks |
+| Architecture Lead | Architecture, requirements decomposition and product/technical strategy |
+| Implementation Lead | Coding, refactoring, automation, builds and implementation tests |
+| Systems Lead | Distributed systems, infrastructure, integration and deployment architecture |
+| Inventory Agent | Read-mostly environment, service, network and resource inspection |
+| Security Lead | Threat analysis, IAM, secrets, hardening and security architecture |
+| Verification Lead | Independent verification, audit and evidence review |
+| Knowledge Lead | Ingestion, provenance, classification, memory promotion and conflict detection |
+| Research Lead | External research, standards, comparative analysis and source gathering |
+| Documentation Lead | Technical documentation, runbooks and structured communication |
+| Creative Lead | Concept development, creative direction and media/content ideation |
 
-**PROPOSAL:** implementations should treat these as examples of durable role identities, not required names.
+**PROPOSAL:** implementations may rename, merge, or split these roles. Their responsibilities matter more than their labels.
 
 ## 4. Specialist pools
 
 Specialists should be capability workers, not elaborate personalities.
 
-Examples from the prior organization include:
+Examples include:
 
 - Engineering: backend, frontend, API, database, Python, TypeScript, Go, Rust, testing, performance, integration, mobile.
 - Platform: deploy, CI, image building, configuration management, infrastructure-as-code, containers, Kubernetes, network, DNS, backup, observability.
