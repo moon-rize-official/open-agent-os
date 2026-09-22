@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://open-agent-os.dev/spec/agents/resource-requirement.schema.json",
+  "title": "Open Agent OS Resource Requirement",
+  "type": "object",
+  "required": ["id", "category", "requirement", "necessity", "access"],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "category": {
+      "type": "string",
+      "enum": [
+        "knowledge",
+        "data",
+        "live-data",
+        "file",
+        "tool",
+        "integration",
+        "mcp",
+        "api",
+        "database",
+        "compute",
+        "model",
+        "skill",
+        "memory",
+        "communication",
+        "observability",
+        "artifact",
+        "workflow"
+      ]
+    },
+    "requirement": {"type": "string", "minLength": 1},
+    "necessity": {
+      "type": "string",
+      "enum": ["REQUIRED", "PREFERRED", "OPTIONAL", "PROHIBITED"]
+    },
+    "access": {
+      "type": "string",
+      "enum": ["none", "metadata", "read", "write", "execute", "administer", "approve"]
+    },
+    "capability": {"type": "string"},
+    "provider": {"type": ["string", "null"]},
+    "sensitivity": {"type": "string", "enum": ["S0", "S1", "S2", "S3", "S4"]},
+    "freshness": {"type": "string", "enum": ["F0", "F1", "F2", "F3", "F4"]},
+    "risk_ceiling": {"type": "string", "enum": ["R0", "R1", "R2", "R3", "R4"]},
+    "network": {"type": "string", "enum": ["offline", "local", "private-network", "internet", "any"]},
+    "credential_required": {"type": "boolean"},
+    "audit_required": {"type": "boolean"},
+    "token_impact": {"type": "string", "enum": ["none", "low", "medium", "high"]},
+    "fallback": {"type": "string"}
+  },
+  "additionalProperties": true
+}
