@@ -3,7 +3,7 @@ message: "If you use Open Agent OS research or specifications, please cite the r
 title: "Open Agent OS"
 type: software
 authors:
-  - name: "Moon Rize contributors"
+  - name: "Open Agent OS contributors"
 repository-code: "https://github.com/moon-rize-official/open-agent-os"
 url: "https://moon-rize-official.github.io/open-agent-os/"
 license: Apache-2.0
