@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Vendor-neutral open-source research and specifications for building modular Agent OS and AI OS platforms.">
+  <title>Open Agent OS — Build agent systems from replaceable parts</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav shell">
+      <a class="brand" href="#top"><span class="mark">OA</span><span>Open Agent OS</span></a>
+      <div class="nav-links">
+        <a href="#architecture">Architecture</a>
+        <a href="#research">Research</a>
+        <a href="#build">Build</a>
+        <a class="button small" href="https://github.com/moon-rize-official/open-agent-os">GitHub</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <div class="eyebrow">OPEN-SOURCE · VENDOR-NEUTRAL · EVIDENCE-FIRST</div>
+      <h1>Build agent systems from <span>replaceable parts.</span></h1>
+      <p class="lede">
+        Open Agent OS is a public research and specification project for modular AI/agent operating systems:
+        stable contracts for runtimes, models, tools, memory, knowledge, workflows, security, compute, and interfaces.
+      </p>
+      <div class="actions">
+        <a class="button" href="https://github.com/moon-rize-official/open-agent-os/blob/main/docs/getting-started/build-your-own-agent-os.md">Build Your Own Agent OS</a>
+        <a class="button ghost" href="https://github.com/moon-rize-official/open-agent-os/blob/main/research/domains/README.md">Explore 80 Research Domains</a>
+      </div>
+
+      <div class="stats">
+        <div><strong>80</strong><span>research domains</span></div>
+        <div><strong>6</strong><span>architecture planes</span></div>
+        <div><strong>7</strong><span>deployment profiles</span></div>
+        <div><strong>1</strong><span>goal: interoperability</span></div>
+      </div>
+    </section>
+
+    <section class="section shell" id="architecture">
+      <div class="section-head">
+        <div>
+          <span class="kicker">REFERENCE ARCHITECTURE</span>
+          <h2>A small kernel. Replaceable userland.</h2>
+        </div>
+        <p>The project researches which semantics must remain stable when implementations change—and which components should stay adapters.</p>
+      </div>
+
+      <div class="planes">
+        <article><span>01</span><h3>Experience</h3><p>GUI, CLI/TUI, IDE, API, SDK, notifications.</p></article>
+        <article><span>02</span><h3>Control</h3><p>Registry, scheduler, policy, routing, workflows, approvals.</p></article>
+        <article><span>03</span><h3>Agent</h3><p>Runtime, harnesses, context, planning, delegation, review.</p></article>
+        <article><span>04</span><h3>Capability</h3><p>Tools, MCP, browser, computer use, shell, Git, APIs.</p></article>
+        <article><span>05</span><h3>Data</h3><p>Memory, knowledge, retrieval, events, artifacts, provenance.</p></article>
+        <article><span>06</span><h3>Infrastructure</h3><p>Models, compute, nodes, sandboxes, network, storage, secrets.</p></article>
+      </div>
+    </section>
+
+    <section class="section shell" id="research">
+      <div class="section-head">
+        <div>
+          <span class="kicker">RESEARCH PROGRAMME</span>
+          <h2>Study the whole Agent OS problem.</h2>
+        </div>
+        <p>Open Agent OS does not reduce architecture to a single framework. The research map spans runtime semantics, knowledge, security, distributed systems, interfaces, governance, and operations.</p>
+      </div>
+
+      <div class="research-grid">
+        <div><h3>Kernel & Runtime</h3><p>Resources, lifecycle, harnesses, models, orchestration, events, durability.</p></div>
+        <div><h3>Knowledge & Capability</h3><p>Memory, RAG, ingestion, skills, tools, MCP, browser and computer use.</p></div>
+        <div><h3>Trust & Security</h3><p>Identity, authorization, secrets, policy, sandboxing, red teaming, audit.</p></div>
+        <div><h3>Distributed Platform</h3><p>Scheduling, local AI, compute fabric, networking, data architecture, HA.</p></div>
+        <div><h3>Quality & Evidence</h3><p>Observability, evaluation, testing, benchmarks, provenance, failure analysis.</p></div>
+        <div><h3>Developer & Organization</h3><p>Plugins, API/SDK, IDEs, project lifecycle, digital workers, governance.</p></div>
+      </div>
+    </section>
+
+    <section class="section shell" id="build">
+      <div class="build-card">
+        <div>
+          <span class="kicker">BUILD PATH</span>
+          <h2>Start simple. Earn complexity.</h2>
+          <p>Begin with a single agent, typed tools, a workspace and structured logs. Add durable state, recovery, memory, multi-agent delegation, security, and distributed compute only when the preceding layer is observable and testable.</p>
+        </div>
+        <ol>
+          <li><span>01</span>Minimal runtime</li>
+          <li><span>02</span>Canonical resources</li>
+          <li><span>03</span>Capabilities & tools</li>
+          <li><span>04</span>Durable execution</li>
+          <li><span>05</span>Knowledge & memory</li>
+          <li><span>06</span>Multi-agent execution</li>
+          <li><span>07</span>Security & governance</li>
+          <li><span>08</span>Distributed compute</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section shell">
+      <div class="principles">
+        <blockquote>“A framework is replaceable. The contracts that preserve identity, safety, state and interoperability are the operating system.”</blockquote>
+        <div>
+          <span>Evidence over marketing.</span>
+          <span>Interoperability over lock-in.</span>
+          <span>Recovery over optimistic execution.</span>
+          <span>Explicit authority over implicit privilege.</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="shell footer">
+    <span>Open Agent OS · Apache-2.0</span>
+    <div><a href="https://github.com/moon-rize-official/open-agent-os">Repository</a><a href="https://github.com/moon-rize-official/open-agent-os/tree/main/wiki">Wiki</a><a href="https://github.com/moon-rize-official/open-agent-os/blob/main/CONTRIBUTING.md">Contribute</a></div>
+  </footer>
+</body>
+</html>
