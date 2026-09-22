@@ -43,3 +43,14 @@
 - versioned specifications
 - implementation matrix
 - compatibility badges based on conformance, not marketing
+
+
+## Cross-cutting Research Tracks
+
+- Frontend/backend architecture across personal, team, organization and enterprise profiles
+- MCP server ecosystem, registries, gateways and private catalogs
+- Agent/skill/plugin/workflow marketplace and compatibility metadata
+- Agent OS design system, accessibility and component testing
+- Engineering system: backend, frontend, platform, DX and delivery
+- Token economics, token accounting, caching and cost controls
+- Token-aware context engineering and retrieval efficiency
