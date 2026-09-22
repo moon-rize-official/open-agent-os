@@ -5,6 +5,7 @@
 - [[Architecture]]
 - [[Build Your Own Agent OS]]
 - [[Research Domains]]
+- [[Agents and Organization]]
 - [[Security Model]]
 - [[Glossary]]
 
