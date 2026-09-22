@@ -1,0 +1,79 @@
+version: 1
+status: INITIAL-VERIFIED
+verified_date: 2026-09-22
+capabilities:
+  version-control:
+    providers:
+      - id: github
+        deployment: [cloud]
+        docs: https://docs.github.com/en/repositories
+      - id: gitlab-self-managed
+        deployment: [self-hosted]
+        docs: https://docs.gitlab.com/
+      - id: gitea
+        deployment: [self-hosted]
+        docs: https://docs.gitea.com/1.23/
+      - id: local-git
+        deployment: [local, offline]
+
+  secrets-manager:
+    providers:
+      - id: openbao
+        deployment: [self-hosted, local]
+        docs: https://openbao.org/docs/what-is-openbao/
+      - id: vault
+        deployment: [self-hosted, cloud, hybrid]
+        docs: https://developer.hashicorp.com/vault/docs
+
+  workflow-engine:
+    providers:
+      - id: temporal
+        deployment: [self-hosted, cloud]
+        docs: https://docs.temporal.io/
+
+  observability:
+    providers:
+      - id: opentelemetry
+        deployment: [local, self-hosted, cloud]
+        role: telemetry-standard-and-collector
+        docs: https://opentelemetry.io/docs/
+      - id: grafana
+        deployment: [self-hosted, cloud]
+        role: observability-platform
+        docs: https://grafana.com/docs/
+
+  developer-portal:
+    providers:
+      - id: backstage
+        deployment: [self-hosted]
+        docs: https://backstage.io/docs/overview/what-is-backstage/
+
+  component-explorer:
+    providers:
+      - id: storybook
+        deployment: [local, self-hosted, static-hosting]
+        docs: https://storybook.js.org/docs/
+
+  relational-database:
+    providers:
+      - id: postgresql
+        deployment: [local, self-hosted, cloud]
+        docs: https://www.postgresql.org/docs/
+
+  vector-search:
+    providers:
+      - id: qdrant
+        deployment: [local, self-hosted, cloud, edge]
+        docs: https://qdrant.tech/documentation/
+
+  model-serving:
+    providers:
+      - id: vllm
+        deployment: [local, self-hosted]
+        docs: https://docs.vllm.ai/en/stable/
+
+  mcp-registry:
+    providers:
+      - id: official-mcp-registry
+        deployment: [public-registry]
+        docs: https://registry.modelcontextprotocol.io/docs
