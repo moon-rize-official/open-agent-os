@@ -1,18 +1,18 @@
 # Skills and Capability Knowledge
 
 **Status:** OBSERVED + PROPOSAL  
-**Source class:** AI-FLEET PRIOR RESEARCH
+**Source class:** PRE-PUBLIC RESEARCH
 
-The saved AI-FLEET Skills Index reports **440 skills**.
+The prior skills corpus reports **440 skills**.
 
-Six platform-level skills were marked tested:
+Six platform-level skill categories had been tested in the earlier internal system:
 
-- `aifleet-delegate`
-- `aifleet-handoff`
-- `aifleet-ingest-knowledge`
-- `aifleet-orchestrate`
-- `aifleet-review-gate`
-- `aifleet-skill-improve`
+- `delegate`
+- `handoff`
+- `ingest-knowledge`
+- `orchestrate`
+- `review-gate`
+- `skill-improve`
 
 The wider index contained department-specific and shared skills spanning engineering, strategy, facilities, trust & safety, knowledge, security, operations and other functions.
 
@@ -30,7 +30,7 @@ A skill should be:
 - independently reviewable;
 - promotable/rollbackable.
 
-Shared skills from the earlier corpus included categories such as:
+Shared skill categories from the earlier corpus included:
 
 - task decomposition;
 - agent delegation and handoff;
