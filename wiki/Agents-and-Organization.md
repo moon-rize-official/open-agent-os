@@ -4,7 +4,7 @@ Open Agent OS contains two distinct agent-knowledge layers.
 
 ## Historical source-derived knowledge
 
-Earlier AI-FLEET research verified an organizational corpus with:
+Earlier pre-public research verified an organizational corpus with:
 
 - 43 departments
 - 228 subdepartments
@@ -13,12 +13,31 @@ Earlier AI-FLEET research verified an organizational corpus with:
 
 The source organization also used:
 
-- durable leads and specialist pools;
+- durable functional leads and specialist pools;
 - independent verification;
 - L0–L5 capability levels;
 - R0–R4 operational risk;
 - separate capability and authority;
 - temporary task teams formed for specific objectives.
+
+## Public role names
+
+The public architecture uses functional names such as:
+
+- Coordinator
+- Policy Authority
+- Architecture Lead
+- Implementation Lead
+- Systems Lead
+- Inventory Agent
+- Security Lead
+- Verification Lead
+- Knowledge Lead
+- Research Lead
+- Documentation Lead
+- Creative Lead
+
+These are role archetypes, not personalities.
 
 ## Public Open Agent OS archetypes
 
