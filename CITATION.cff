@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use Open Agent OS research or specifications, please cite the repository."
+title: "Open Agent OS"
+type: software
+authors:
+  - name: "Moon Rize contributors"
+repository-code: "https://github.com/moon-rize-official/open-agent-os"
+url: "https://moon-rize-official.github.io/open-agent-os/"
+license: Apache-2.0
+version: "0.1.0-research"
+date-released: 2026-09-22
+keywords:
+  - agent-os
+  - ai-os
+  - ai-agents
+  - multi-agent
+  - orchestration
+  - mcp
+  - ai-infrastructure
