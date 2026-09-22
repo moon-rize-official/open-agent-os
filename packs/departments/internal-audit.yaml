@@ -1,0 +1,44 @@
+version: 1
+id: internal-audit
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Internal Audit"
+requirements:
+  knowledge:
+    - audit-methods
+    - control-framework
+    - policy-library
+  data:
+    - evidence
+    - logs
+    - control-state
+    - findings
+    - remediation-state
+  tools:
+    - audit-system
+    - grc
+    - search
+    - reporting
+    - evidence-store
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - audit-finding
+  - audit-report
+  - remediation-tracking
+  - evidence-record
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

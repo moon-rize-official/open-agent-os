@@ -1,0 +1,45 @@
+version: 1
+id: manufacturing-production
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Manufacturing & Production"
+requirements:
+  knowledge:
+    - process-specs
+    - bom
+    - quality-procedures
+    - safety-guides
+  data:
+    - equipment-state
+    - production-schedule
+    - quality-data
+    - inventory
+    - work-orders
+  tools:
+    - mes
+    - erp
+    - quality-system
+    - maintenance-system
+    - industrial-telemetry
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - production-action
+  - quality-record
+  - maintenance-request
+  - schedule
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

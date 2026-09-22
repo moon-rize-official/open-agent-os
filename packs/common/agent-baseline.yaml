@@ -1,0 +1,27 @@
+version: 1
+id: agent-common-baseline
+kind: CommonResourcePack
+status: PROPOSAL
+requirements:
+  identity:
+    - principal-identity
+    - agent-definition
+  context:
+    - current-task
+    - applicable-policy
+    - authority-boundary
+    - output-contract
+  services:
+    - capability-registry
+    - policy-engine
+    - audit-service
+    - token-accounting
+  safety:
+    - least-privilege
+    - provenance
+    - escalation-path
+defaults:
+  deny_unspecified_resources: true
+  inject_full_knowledgebase: false
+  inject_all_tools: false
+  audit_required: true

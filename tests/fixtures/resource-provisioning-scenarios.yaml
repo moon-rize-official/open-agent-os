@@ -1,0 +1,31 @@
+version: 1
+scenarios:
+  - id: backend-engineering-task
+    agent_pattern: engineering-implementation-delivery-*
+    requires: [version-control, isolated-shell, test-runner, software-architecture]
+    expect:
+      production_write: false
+      independent_review: true
+  - id: security-verification
+    agent_pattern: security-verification-governance-*
+    requires: [identity-graph, security-events, policy-engine, audit-search]
+    expect:
+      independent_from_implementer: true
+  - id: live-platform-incident
+    agent_pattern: platform-infrastructure-operations-reliability-*
+    requires: [service-health, observability, incident-management]
+    expect:
+      live_data_required: true
+      mutation_policy: risk-controlled
+  - id: missing-required-resource
+    condition: required-provider-unavailable
+    expect:
+      action: [find-compatible-provider, request-installation-or-approval, block-if-unresolved]
+  - id: prohibited-resource
+    condition: resource-marked-prohibited
+    expect:
+      action: [deny]
+  - id: stale-live-data
+    condition: live-data-exceeds-freshness-budget
+    expect:
+      action: [refetch, block-if-refetch-fails]

@@ -1,0 +1,46 @@
+version: 1
+id: data-analytics
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Data & Analytics"
+requirements:
+  knowledge:
+    - data-dictionary
+    - metric-definitions
+    - schema-docs
+    - data-governance
+  data:
+    - datasets
+    - schemas
+    - lineage
+    - quality-metrics
+    - pipeline-state
+  tools:
+    - sql-client
+    - notebook
+    - bi-tool
+    - data-catalog
+    - validation-tool
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - analysis
+  - dataset
+  - dashboard
+  - data-model
+  - quality-report
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

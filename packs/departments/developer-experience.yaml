@@ -1,0 +1,44 @@
+version: 1
+id: developer-experience
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Developer Experience"
+requirements:
+  knowledge:
+    - sdk-docs
+    - developer-guides
+    - platform-standards
+    - templates
+  data:
+    - developer-feedback
+    - build-metrics
+    - tool-usage
+    - support-requests
+  tools:
+    - developer-portal
+    - ci
+    - package-registry
+    - ide-integration
+    - documentation
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - sdk
+  - template
+  - documentation
+  - dx-improvement
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

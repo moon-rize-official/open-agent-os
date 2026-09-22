@@ -1,0 +1,42 @@
+version: 1
+id: corporate-development
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Corporate Development"
+requirements:
+  knowledge:
+    - corporate-strategy
+    - market-research
+    - diligence-framework
+  data:
+    - target-list
+    - financial-models
+    - diligence-data
+    - market-data
+  tools:
+    - research-search
+    - financial-modeling
+    - data-room
+    - spreadsheet-analysis
+    - crm
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - diligence-report
+  - investment-analysis
+  - strategy-recommendation
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

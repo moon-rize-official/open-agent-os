@@ -1,0 +1,45 @@
+version: 1
+id: legal
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Legal"
+requirements:
+  knowledge:
+    - laws
+    - regulatory-guidance
+    - contracts
+    - legal-templates
+    - ip-policy
+  data:
+    - contract-metadata
+    - matter-state
+    - jurisdiction-context
+    - ip-records
+  tools:
+    - legal-research
+    - contract-management
+    - document-management
+    - e-signature
+    - case-management
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - legal-analysis
+  - contract
+  - legal-review
+  - risk-advice
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

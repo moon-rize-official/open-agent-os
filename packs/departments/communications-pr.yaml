@@ -1,0 +1,43 @@
+version: 1
+id: communications-pr
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Communications & Public Relations"
+requirements:
+  knowledge:
+    - brand-messaging
+    - communications-policy
+    - crisis-plan
+  data:
+    - media-context
+    - public-statements
+    - campaign-state
+    - stakeholder-list
+  tools:
+    - cms
+    - media-monitoring
+    - communication
+    - social-management
+    - document-generation
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - statement
+  - press-release
+  - briefing
+  - crisis-response
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

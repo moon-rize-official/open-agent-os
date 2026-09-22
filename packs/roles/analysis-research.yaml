@@ -1,0 +1,30 @@
+version: 1
+id: analysis-research
+kind: RoleResourceOverlay
+status: PROPOSAL
+role_family: analysis-research
+access_defaults:
+  - metadata
+  - read
+  - write-research-artifacts
+preferred_tools:
+  - web-research
+  - document-reader
+  - data-analysis
+  - citation-management
+preferred_models:
+  - reasoning-model
+  - general-llm
+  - embedding-model
+expected_outputs:
+  - research-report
+  - evidence-table
+  - comparison
+  - benchmark
+review_policy: source-validation-required
+context_priority:
+  - task
+  - sources
+  - evidence
+  - prior-research
+  - constraints

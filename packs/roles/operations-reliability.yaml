@@ -1,0 +1,31 @@
+version: 1
+id: operations-reliability
+kind: RoleResourceOverlay
+status: PROPOSAL
+role_family: operations-reliability
+access_defaults:
+  - metadata
+  - read-live
+  - execute-controlled
+  - write-operational-records
+preferred_tools:
+  - observability
+  - incident-management
+  - infrastructure-cli
+  - workflow-engine
+preferred_models:
+  - reasoning-model
+  - general-llm
+expected_outputs:
+  - operational-action
+  - incident-record
+  - remediation
+  - runbook-update
+review_policy: approval-by-risk-class
+context_priority:
+  - task
+  - live-state
+  - runbook
+  - service-map
+  - risk
+  - rollback

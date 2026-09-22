@@ -1,0 +1,44 @@
+version: 1
+id: business-continuity-crisis
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Business Continuity & Crisis Management"
+requirements:
+  knowledge:
+    - continuity-plans
+    - recovery-procedures
+    - crisis-playbooks
+  data:
+    - dependencies
+    - contacts
+    - incident-state
+    - backup-status
+    - site-status
+  tools:
+    - incident-management
+    - communication
+    - backup-recovery
+    - status-dashboard
+    - workflow
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - recovery-plan
+  - crisis-action
+  - status-report
+  - post-incident-review
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

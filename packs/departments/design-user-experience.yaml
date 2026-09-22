@@ -1,0 +1,46 @@
+version: 1
+id: design-user-experience
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Design & User Experience"
+requirements:
+  knowledge:
+    - design-system
+    - user-research
+    - journeys
+    - accessibility-guidelines
+    - product-requirements
+  data:
+    - research-findings
+    - usability-results
+    - component-inventory
+    - design-tokens
+  tools:
+    - design-tool
+    - prototyping
+    - component-explorer
+    - browser-testing
+    - accessibility-testing
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - design
+  - prototype
+  - component-spec
+  - ux-research
+  - accessibility-review
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

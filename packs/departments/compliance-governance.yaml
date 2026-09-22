@@ -1,0 +1,45 @@
+version: 1
+id: compliance-governance
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Compliance & Governance"
+requirements:
+  knowledge:
+    - obligations
+    - control-framework
+    - policies
+    - audit-criteria
+  data:
+    - control-state
+    - evidence
+    - exceptions
+    - audit-findings
+    - obligation-register
+  tools:
+    - grc
+    - policy-engine
+    - audit-search
+    - evidence-store
+    - workflow
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - assessment
+  - control-evidence
+  - exception
+  - compliance-report
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

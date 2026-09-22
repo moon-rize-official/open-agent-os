@@ -1,0 +1,44 @@
+version: 1
+id: customer-support
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Customer Support"
+requirements:
+  knowledge:
+    - knowledgebase
+    - troubleshooting-guides
+    - escalation-policy
+    - product-docs
+  data:
+    - tickets
+    - customer-context
+    - diagnostic-data
+    - service-status
+  tools:
+    - helpdesk
+    - knowledge-search
+    - log-search
+    - remote-diagnostics
+    - communication
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - resolution
+  - ticket-update
+  - escalation
+  - knowledge-gap
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

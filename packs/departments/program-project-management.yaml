@@ -1,0 +1,46 @@
+version: 1
+id: program-project-management
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Program & Project Management"
+requirements:
+  knowledge:
+    - project-methodology
+    - governance
+    - planning-standards
+  data:
+    - plans
+    - milestones
+    - dependencies
+    - risks
+    - owners
+    - status
+  tools:
+    - project-management
+    - task-tracker
+    - dashboard
+    - documentation
+    - communication
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - plan
+  - status-report
+  - dependency-map
+  - risk-log
+  - coordination-action
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

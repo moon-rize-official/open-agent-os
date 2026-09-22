@@ -1,0 +1,33 @@
+version: 1
+id: verification-governance
+kind: RoleResourceOverlay
+status: PROPOSAL
+role_family: verification-governance
+access_defaults:
+  - metadata
+  - read
+  - execute-tests
+  - write-findings
+  - approve-when-authorized
+preferred_tools:
+  - review-tool
+  - test-runner
+  - policy-engine
+  - audit-search
+  - security-scanner
+preferred_models:
+  - reasoning-model
+  - review-model
+expected_outputs:
+  - review
+  - finding
+  - approval-decision
+  - evidence-record
+review_policy: independent-from-implementer
+context_priority:
+  - requirements
+  - artifact
+  - policy
+  - evidence
+  - tests
+  - risk

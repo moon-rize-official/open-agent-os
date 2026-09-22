@@ -1,0 +1,43 @@
+version: 1
+id: partnerships-business-development
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Partnerships & Business Development"
+requirements:
+  knowledge:
+    - partner-strategy
+    - integration-guides
+    - commercial-frameworks
+  data:
+    - partner-records
+    - opportunities
+    - agreements-metadata
+    - relationship-history
+  tools:
+    - crm
+    - contract-docs
+    - research-search
+    - communication
+    - project-management
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - partner-plan
+  - proposal
+  - integration-plan
+  - relationship-update
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

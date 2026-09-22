@@ -1,0 +1,47 @@
+version: 1
+id: security
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Security"
+requirements:
+  knowledge:
+    - security-policy
+    - threat-models
+    - hardening-guides
+    - incident-procedures
+  data:
+    - asset-inventory
+    - identity-graph
+    - vulnerabilities
+    - security-events
+    - incident-state
+  tools:
+    - siem
+    - vulnerability-scanner
+    - iam-admin
+    - secrets-manager
+    - policy-engine
+    - audit-search
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - security-finding
+  - control
+  - incident-action
+  - risk-review
+  - threat-model
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

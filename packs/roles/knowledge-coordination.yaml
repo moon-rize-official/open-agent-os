@@ -1,0 +1,33 @@
+version: 1
+id: knowledge-coordination
+kind: RoleResourceOverlay
+status: PROPOSAL
+role_family: knowledge-coordination
+access_defaults:
+  - metadata
+  - read
+  - write-knowledge
+  - coordinate
+preferred_tools:
+  - knowledgebase
+  - search
+  - ingestion
+  - knowledge-graph
+  - task-system
+preferred_models:
+  - general-llm
+  - embedding-model
+  - reranker
+expected_outputs:
+  - knowledge-entry
+  - index
+  - summary
+  - handoff
+  - coordination-record
+review_policy: provenance-and-freshness-check
+context_priority:
+  - task
+  - source-inventory
+  - taxonomy
+  - project-state
+  - provenance

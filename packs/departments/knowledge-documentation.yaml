@@ -1,0 +1,45 @@
+version: 1
+id: knowledge-documentation
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Knowledge & Documentation"
+requirements:
+  knowledge:
+    - taxonomy
+    - documentation-standards
+    - source-quality-policy
+    - provenance-policy
+  data:
+    - source-inventory
+    - knowledge-index
+    - freshness-state
+    - citation-graph
+  tools:
+    - knowledgebase
+    - search
+    - ingestion
+    - knowledge-graph
+    - documentation-tool
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - documentation
+  - knowledge-entry
+  - index
+  - taxonomy
+  - source-map
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

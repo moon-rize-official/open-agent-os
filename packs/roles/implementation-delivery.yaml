@@ -1,0 +1,32 @@
+version: 1
+id: implementation-delivery
+kind: RoleResourceOverlay
+status: PROPOSAL
+role_family: implementation-delivery
+access_defaults:
+  - metadata
+  - read
+  - write-workspace
+  - execute-bounded
+preferred_tools:
+  - version-control
+  - ide-editor
+  - isolated-shell
+  - test-runner
+  - build-system
+preferred_models:
+  - coding-model
+  - reasoning-model
+expected_outputs:
+  - implementation
+  - tests
+  - migration
+  - build-artifact
+review_policy: independent-review-before-promotion
+context_priority:
+  - task
+  - requirements
+  - architecture
+  - source
+  - tests
+  - tool-contracts

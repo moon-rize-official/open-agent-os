@@ -1,0 +1,44 @@
+version: 1
+id: architecture
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Architecture"
+requirements:
+  knowledge:
+    - architecture-principles
+    - standards
+    - adrs
+    - roadmaps
+  data:
+    - system-map
+    - dependencies
+    - application-portfolio
+    - technical-debt
+  tools:
+    - diagramming
+    - service-catalog
+    - code-search
+    - documentation
+    - dependency-analysis
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - architecture
+  - adr
+  - standard
+  - dependency-map
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

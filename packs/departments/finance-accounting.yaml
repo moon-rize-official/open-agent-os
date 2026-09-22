@@ -1,0 +1,44 @@
+version: 1
+id: finance-accounting
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Finance & Accounting"
+requirements:
+  knowledge:
+    - accounting-policy
+    - budget-policy
+    - approval-policy
+  data:
+    - budget
+    - ledger
+    - invoices
+    - forecast
+    - cost-allocation
+  tools:
+    - accounting-system
+    - erp
+    - spreadsheet-analysis
+    - approval-workflow
+    - reporting
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - financial-report
+  - invoice
+  - forecast
+  - budget-decision
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

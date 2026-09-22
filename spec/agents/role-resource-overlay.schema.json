@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://open-agent-os.dev/spec/agents/role-resource-overlay.schema.json",
+  "title": "Role Resource Overlay",
+  "type": "object",
+  "required": [
+    "version",
+    "id",
+    "kind",
+    "role_family",
+    "access_defaults"
+  ],
+  "properties": {
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "id": {
+      "type": "string"
+    },
+    "kind": {
+      "const": "RoleResourceOverlay"
+    },
+    "status": {
+      "type": "string"
+    },
+    "role_family": {
+      "type": "string"
+    },
+    "access_defaults": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "preferred_tools": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "preferred_models": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "expected_outputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "review_policy": {
+      "type": "string"
+    },
+    "context_priority": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

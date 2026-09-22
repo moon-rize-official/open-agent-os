@@ -1,0 +1,30 @@
+version: 1
+id: strategy-planning
+kind: RoleResourceOverlay
+status: PROPOSAL
+role_family: strategy-planning
+access_defaults:
+  - metadata
+  - read
+  - write-plans
+preferred_tools:
+  - research-search
+  - business-intelligence
+  - project-management
+  - diagramming
+preferred_models:
+  - reasoning-model
+  - general-llm
+expected_outputs:
+  - plan
+  - decision-record
+  - roadmap
+  - risk-plan
+review_policy: independent-review-for-high-impact
+context_priority:
+  - task
+  - goals
+  - constraints
+  - metrics
+  - risks
+  - current-state

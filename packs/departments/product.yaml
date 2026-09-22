@@ -1,0 +1,44 @@
+version: 1
+id: product
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Product"
+requirements:
+  knowledge:
+    - product-strategy
+    - roadmap
+    - requirements
+    - customer-research
+    - competitive-analysis
+  data:
+    - product-analytics
+    - customer-feedback
+    - experiment-results
+    - issue-status
+  tools:
+    - product-management
+    - analytics
+    - research-search
+    - issue-tracker
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - product-spec
+  - roadmap
+  - prioritization
+  - experiment-plan
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

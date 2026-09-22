@@ -1,0 +1,45 @@
+version: 1
+id: trust-safety
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Trust & Safety"
+requirements:
+  knowledge:
+    - safety-policy
+    - enforcement-rules
+    - abuse-patterns
+    - escalation-policy
+  data:
+    - reports
+    - case-state
+    - signals
+    - enforcement-history
+    - appeals
+  tools:
+    - case-management
+    - moderation
+    - analytics
+    - review-tool
+    - communication
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - enforcement-decision
+  - escalation
+  - safety-finding
+  - case-record
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

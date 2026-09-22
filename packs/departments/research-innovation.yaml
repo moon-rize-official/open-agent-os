@@ -1,0 +1,44 @@
+version: 1
+id: research-innovation
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Research & Innovation"
+requirements:
+  knowledge:
+    - papers
+    - standards
+    - prior-research
+    - experimental-methods
+  data:
+    - datasets
+    - experiment-results
+    - benchmarks
+    - source-index
+  tools:
+    - web-research
+    - document-reader
+    - notebook
+    - data-analysis
+    - citation-management
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - research-report
+  - evidence-table
+  - experiment
+  - benchmark
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

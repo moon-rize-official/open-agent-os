@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://open-agent-os.dev/spec/agents/department-resource-pack.schema.json",
+  "title": "Department Resource Pack",
+  "type": "object",
+  "required": [
+    "version",
+    "id",
+    "kind",
+    "department",
+    "requirements"
+  ],
+  "properties": {
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "id": {
+      "type": "string"
+    },
+    "kind": {
+      "const": "DepartmentResourcePack"
+    },
+    "status": {
+      "type": "string"
+    },
+    "department": {
+      "type": "string"
+    },
+    "requirements": {
+      "type": "object"
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "defaults": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

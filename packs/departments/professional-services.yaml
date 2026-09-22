@@ -1,0 +1,43 @@
+version: 1
+id: professional-services
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Professional Services"
+requirements:
+  knowledge:
+    - delivery-methods
+    - implementation-guides
+    - customer-sow
+  data:
+    - project-plan
+    - customer-environment
+    - deliverables
+    - acceptance-state
+  tools:
+    - project-management
+    - documentation
+    - deployment-tool
+    - integration-tool
+    - communication
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - implementation
+  - customer-report
+  - configuration
+  - acceptance-evidence
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

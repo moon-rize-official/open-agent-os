@@ -1,0 +1,44 @@
+version: 1
+id: enterprise-architecture-shared-services
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Enterprise Architecture & Shared Services"
+requirements:
+  knowledge:
+    - enterprise-standards
+    - capability-model
+    - shared-service-catalog
+    - governance
+  data:
+    - application-portfolio
+    - capability-map
+    - dependencies
+    - service-ownership
+  tools:
+    - enterprise-architecture-repository
+    - service-catalog
+    - bi-tool
+    - documentation
+    - portfolio-management
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - enterprise-standard
+  - capability-map
+  - portfolio-decision
+  - shared-service-plan
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

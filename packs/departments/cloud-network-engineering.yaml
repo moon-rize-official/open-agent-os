@@ -1,0 +1,45 @@
+version: 1
+id: cloud-network-engineering
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Cloud & Network Engineering"
+requirements:
+  knowledge:
+    - cloud-architecture
+    - network-standards
+    - iam-policy
+    - dns-design
+  data:
+    - cloud-inventory
+    - network-topology
+    - traffic
+    - capacity
+    - incidents
+  tools:
+    - cloud-cli
+    - network-tooling
+    - infrastructure-as-code
+    - dns-management
+    - observability
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - cloud-change
+  - network-change
+  - capacity-plan
+  - incident-action
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

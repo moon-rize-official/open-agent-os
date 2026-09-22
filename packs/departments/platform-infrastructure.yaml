@@ -1,0 +1,45 @@
+version: 1
+id: platform-infrastructure
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Platform & Infrastructure"
+requirements:
+  knowledge:
+    - infrastructure-architecture
+    - runbooks
+    - service-catalog
+    - recovery-plans
+  data:
+    - inventory
+    - deployments
+    - service-health
+    - capacity
+    - backup-status
+  tools:
+    - infrastructure-as-code
+    - container-runtime
+    - orchestrator
+    - cloud-cli
+    - observability
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - infrastructure-change
+  - runbook
+  - capacity-plan
+  - recovery-action
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

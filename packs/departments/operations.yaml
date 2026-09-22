@@ -1,0 +1,44 @@
+version: 1
+id: operations
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Operations"
+requirements:
+  knowledge:
+    - operating-procedures
+    - service-levels
+    - escalation-procedures
+  data:
+    - queues
+    - schedules
+    - incidents
+    - operational-metrics
+    - work-in-progress
+  tools:
+    - workflow-engine
+    - ticketing
+    - dashboard
+    - communication
+    - scheduler
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - operational-action
+  - status-report
+  - work-order
+  - escalation
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

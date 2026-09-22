@@ -1,0 +1,44 @@
+version: 1
+id: data-platform
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Data Platform"
+requirements:
+  knowledge:
+    - storage-architecture
+    - pipeline-standards
+    - schema-governance
+  data:
+    - storage-state
+    - pipelines
+    - schemas
+    - lineage
+    - capacity
+  tools:
+    - database-admin
+    - data-orchestrator
+    - catalog
+    - monitoring
+    - storage-management
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - data-service
+  - pipeline
+  - schema-change
+  - capacity-plan
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

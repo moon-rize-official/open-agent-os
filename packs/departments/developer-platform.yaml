@@ -1,0 +1,44 @@
+version: 1
+id: developer-platform
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Developer Platform"
+requirements:
+  knowledge:
+    - platform-api-docs
+    - golden-paths
+    - environment-standards
+    - service-templates
+  data:
+    - environment-state
+    - ci-state
+    - service-catalog
+    - platform-usage
+  tools:
+    - developer-portal
+    - ci-cd
+    - orchestrator
+    - registry
+    - template-engine
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - platform-service
+  - template
+  - automation
+  - environment
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

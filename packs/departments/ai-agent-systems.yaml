@@ -1,0 +1,47 @@
+version: 1
+id: ai-agent-systems
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "AI & Agent Systems"
+requirements:
+  knowledge:
+    - agent-architecture
+    - model-docs
+    - prompt-guidelines
+    - evaluation-methods
+    - routing-policy
+  data:
+    - agent-registry
+    - model-registry
+    - eval-results
+    - token-cost-metrics
+    - run-traces
+  tools:
+    - model-api
+    - agent-runtime
+    - mcp-broker
+    - evaluation-runner
+    - trace-viewer
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - agent-definition
+  - routing-policy
+  - evaluation
+  - prompt
+  - workflow
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

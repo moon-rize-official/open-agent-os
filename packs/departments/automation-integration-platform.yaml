@@ -1,0 +1,45 @@
+version: 1
+id: automation-integration-platform
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Automation & Integration Platform"
+requirements:
+  knowledge:
+    - integration-standards
+    - api-contracts
+    - workflow-guides
+    - connector-docs
+  data:
+    - workflow-state
+    - connector-state
+    - queues
+    - failures
+    - api-health
+  tools:
+    - workflow-engine
+    - mcp-broker
+    - api-gateway
+    - message-queue
+    - connector-runtime
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - automation
+  - integration
+  - connector
+  - workflow
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

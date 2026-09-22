@@ -1,0 +1,44 @@
+version: 1
+id: facilities-workplace
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Facilities & Workplace"
+requirements:
+  knowledge:
+    - site-procedures
+    - safety-procedures
+    - maintenance-guides
+  data:
+    - sites
+    - access-state
+    - maintenance
+    - assets
+    - schedules
+  tools:
+    - cmms
+    - asset-management
+    - access-system
+    - scheduling
+    - ticketing
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - maintenance-action
+  - work-order
+  - site-report
+  - access-request
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy

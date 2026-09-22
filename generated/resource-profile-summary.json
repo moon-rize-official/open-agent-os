@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "status": "PROPOSAL",
+  "departments": 43,
+  "role_families": 6,
+  "capability_levels": 6,
+  "profiles": 1548,
+  "composition": "common+department+role+project+task+live"
+}

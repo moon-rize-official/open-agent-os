@@ -1,0 +1,48 @@
+version: 1
+id: engineering
+kind: DepartmentResourcePack
+status: PROPOSAL
+department: "Engineering"
+requirements:
+  knowledge:
+    - software-architecture
+    - adrs
+    - api-docs
+    - coding-standards
+    - dependency-docs
+  data:
+    - repository-state
+    - issues
+    - test-results
+    - build-status
+    - dependency-state
+  tools:
+    - version-control
+    - ide-editor
+    - isolated-shell
+    - build-system
+    - test-runner
+    - code-search
+  integrations:
+    - capability-registry
+    - organization-directory
+    - audit-service
+  models:
+    - general-llm
+  skills:
+    - evidence-recording
+    - task-handoff
+  observability:
+    - run-tracing
+    - token-accounting
+    - audit-events
+outputs:
+  - code
+  - tests
+  - review
+  - migration
+  - implementation-notes
+defaults:
+  authority: least-privilege
+  provenance_required: true
+  provider_binding: organization-policy
