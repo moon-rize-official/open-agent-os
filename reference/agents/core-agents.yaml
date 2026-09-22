@@ -1,0 +1,43 @@
+version: 1
+status: observed-case-study
+source_class: AI-FLEET-PRIOR-RESEARCH
+note: >
+  These are durable role examples from the source organization.
+  Implementations may rename or replace them.
+agents:
+  - id: hermes
+    role: chief-coordinator
+    purpose: classify work, form teams, coordinate dependencies, request verification, return results
+  - id: themis
+    role: governance-authority
+    purpose: policy, authorization, approval, ownership and risk checks
+  - id: athena
+    role: architecture-product-lead
+    purpose: architecture, requirements decomposition, technical strategy and product planning
+  - id: hephaestus
+    role: implementation-lead
+    purpose: code, refactoring, automation, builds and implementation tests
+  - id: daedalus
+    role: systems-platform-lead
+    purpose: distributed systems, infrastructure architecture, integration and deployment design
+  - id: atlas
+    role: infrastructure-inventory
+    purpose: read-mostly collection of current hardware, services, storage, network and utilization
+  - id: aegis
+    role: security-lead
+    purpose: threat analysis, IAM, secrets, hardening, application and network security
+  - id: argus
+    role: independent-verification
+    purpose: audit, evidence gathering, regression review and independent validation
+  - id: mnemosyne
+    role: knowledge-lead
+    purpose: ingestion, provenance, deduplication, classification, memory promotion and conflict detection
+  - id: apollo
+    role: research-lead
+    purpose: external research, standards, comparative analysis and source gathering
+  - id: calliope
+    role: documentation-lead
+    purpose: technical documentation, runbooks, structured reports and consistency
+  - id: orpheus
+    role: creative-lead
+    purpose: concept development, creative direction and media/content ideation
