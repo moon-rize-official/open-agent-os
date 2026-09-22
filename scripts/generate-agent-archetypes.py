@@ -2,7 +2,7 @@
 """Generate the Open Agent OS public agent-archetype catalog.
 
 This is a PROPOSAL catalog, not a recovered copy of the historical
-AI-FLEET 1,332-role registry and not a recommendation to instantiate
+pre-public 1,332-role registry and not a recommendation to instantiate
 all generated agents simultaneously.
 """
 from __future__ import annotations
