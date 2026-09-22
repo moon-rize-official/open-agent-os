@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://open-agent-os.dev/spec/agents/information-profile.schema.json",
+  "title": "Open Agent OS Information Profile",
+  "type": "object",
+  "required": ["id", "requirements"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "applies_to": {
+      "type": "object",
+      "properties": {
+        "department": {"type": "string"},
+        "role_family": {"type": "string"},
+        "agent_definition": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "requirements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "required", "delivery", "sensitivity", "token_priority"],
+        "properties": {
+          "id": {"type": "string"},
+          "description": {"type": "string"},
+          "required": {"type": "boolean"},
+          "source": {"type": "string"},
+          "source_authority": {"type": "string"},
+          "sensitivity": {
+            "type": "string",
+            "enum": ["S0", "S1", "S2", "S3", "S4"]
+          },
+          "freshness": {
+            "type": "string",
+            "enum": ["F0", "F1", "F2", "F3", "F4"]
+          },
+          "max_age_seconds": {
+            "type": ["integer", "null"],
+            "minimum": 0
+          },
+          "retention": {"type": "string"},
+          "access_policy": {"type": "string"},
+          "provenance_required": {"type": "boolean"},
+          "token_priority": {
+            "type": "string",
+            "enum": ["P0", "P1", "P2", "P3"]
+          },
+          "delivery": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["always", "retrieve", "fetch-live", "memory", "artifact-reference"]
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "update_trigger": {"type": "string"},
+          "fallback_behavior": {
+            "type": "string",
+            "enum": ["block", "retrieve", "fetch-live", "escalate", "degraded"]
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}
