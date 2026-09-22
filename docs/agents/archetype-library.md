@@ -2,7 +2,7 @@
 
 **Status:** PROPOSAL
 
-The historical AI-FLEET research verified a separate corpus of **1,332 role/person workspaces**. That exact registry is not currently available as a public-safe source artifact.
+Earlier pre-public research verified a separate corpus of **1,332 role/person workspaces**. That exact registry is not currently available as a public-safe source artifact.
 
 To preserve the useful design space without pretending to reproduce the original registry, Open Agent OS provides a deterministic public archetype generator.
 
@@ -18,7 +18,7 @@ The generator combines:
 43 × 6 × 6 = 1,548 agent archetypes
 ```
 
-This exceeds the requested 1,400+ role knowledge target while remaining transparent about provenance.
+This provides a broad public design-space library while remaining transparent about provenance.
 
 ## Role families
 
