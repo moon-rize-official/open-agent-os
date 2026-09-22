@@ -39,6 +39,30 @@ The project studies the full stack:
 - **Roadmap:** [ROADMAP.md](ROADMAP.md)
 - **Contributing:** [CONTRIBUTING.md](CONTRIBUTING.md)
 
+
+## Agent organization knowledge
+
+Open Agent OS includes a public, reusable agent-organization corpus derived from earlier AI-FLEET research and clearly separated from new proposals.
+
+- **Historical verified corpus:** 43 departments, 228 subdepartments, and **1,332 role/person workspaces**
+- **Public archetype registry:** **1,548 generated agent archetypes**
+- **Capability model:** L0–L5 capability levels kept separate from operational authority
+- **Risk model:** R0–R4 action classes
+- **Organization model:** permanent departments + leads + specialist pools + temporary task teams
+- **Skills knowledge:** prior corpus reports **440 reusable skills**
+
+Start here:
+
+- [Agent Organization Model](docs/agents/README.md)
+- [Role Workspace Contract](docs/agents/role-workspace-contract.md)
+- [Capability, Authority and Risk](docs/agents/capability-authority-risk.md)
+- [Skills and Capabilities](docs/agents/skills-and-capabilities.md)
+- [Public 1,548-Agent Archetype Library](docs/agents/archetype-library.md)
+- [Generated JSON Registry](generated/agent-archetypes.json)
+- [Generated CSV Registry](generated/agent-archetypes.csv)
+
+The 1,548-entry registry is a **design-space catalog**, not a recommendation to run 1,548 agents simultaneously. The default operating principle remains: use the smallest competent team that can complete the task safely.
+
 ## Research discipline
 
 Important statements are classified as:
